@@ -1,0 +1,9 @@
+# Pasta do Ambiente Virtual
+.venv/
+
+# Arquivos do VSCode
+.vscode/
+
+# Arquivos Compilados do Python
+__pycache__/
+*.pyc
