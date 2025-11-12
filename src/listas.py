@@ -29,3 +29,15 @@ if __name__ == "__main__":
     )
 
     print(f"Os funcionários que não possuem carro são: {func - t_carro}")
+
+
+# Segunda forma de implementação utilizando apenas as listas principais como base (funcionarios, turno_dia, turno_noite, tem_carro):
+
+# lista1 = set(tem_carro).intersection(turno_noite)
+# print(f"Os funcionários que possuem carro e trabalham durante a noite são: {lista1}")
+
+# lista2 = set(tem_carro).intersection(turno_dia)
+# print(f"Os funcionários que possuem carro e trabalham durante o dia são: {lista2}")
+
+# lista3 = set(funcionarios).difference(tem_carro)
+# print(f"Os funcionários que não possuem carro são: {lista3}")
